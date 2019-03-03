@@ -1,0 +1,12 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 40px;
+}
+
+.todo {
+    float: left;
+    padding: 40px;
+    margin: 20px;
+    background: linear-gradient(to right bottom, #FEDE69 0%, #FDEDAC 100%);
+}

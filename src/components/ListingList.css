@@ -1,0 +1,55 @@
+.listing-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.listing {
+	padding: 40px;
+	clear: both;
+	margin-bottom: 30px;
+}
+
+.listing .img {
+	width: 160px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	background: #eaeaea;
+}
+
+.listing .img img {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.listing p {
+	margin-left: 180px;
+}
+
+.similar-list-btn {
+	margin: 16px auto;
+	padding: 16px;
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+.pagination {
+	border: 1px solid #eee;
+	box-shadow: 0 2px 3px #ccc;
+}
+.page-numbers {
+	box-align: initial;
+	list-style: none;
+	display: flex;
+}
+
+.page-numbers > li {
+	margin-right: 0.3em;
+	color: blue;
+	user-select: none;
+	cursor: pointer;
+}

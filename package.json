@@ -1,0 +1,28 @@
+{
+  "name": "fe-assignment-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "html-react-parser": "^0.6.1",
+    "node-sass-chokidar": "^1.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.4.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.4.2",
+    "react-js-pagination": "^3.0.2",
+    "react-pagify": "^2.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "segmentize": "^0.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
